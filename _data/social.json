@@ -1,0 +1,23 @@
+[
+  {
+    "icon": "fa-weixin", 
+    "link": "#",  
+    "tooltip": "我的微信号：13883697771" 
+  },
+  {
+    "icon": "fa-qq",
+    "link": "#",
+    "tooltip": "我的QQ号: 1147993479"
+  },
+  {
+    "icon": "fa-envelope",
+    "link": "mailto:1147993479@qq.com",
+    "tooltip": "发送邮件给我"
+  }
+
+  ,{
+    "icon": "fa-github",
+    "link": "https://github.com/yourusername",
+    "tooltip": "我的GitHub"
+  }
+]

@@ -1,0 +1,22 @@
+---
+layout: page # 或者 default，取决于 page 布局是否符合您的首页预期，或者您可以创建一个新的首页布局
+title: 欢迎来到我的主页 # 或者您的名字
+---
+
+<div class="well">
+  <div style="text-align: center; padding: 20px;">
+    {% if site.logo %}
+      <img src="static/img/pailide.jpg" alt="头像" style="width: 300px; height: 200px; margin-bottom: 20px; margin: 0 auto">
+    {% endif %}
+    <h1>{{ site.author | default: "你好，访客！" }}</h1>
+    <p class="lead">{{ site.about | default: "欢迎来到我的个人网站。" }}</p>
+    <hr>
+    <p>
+      我是一名对技术充满热情的学生，对人工智能、计算机视觉充满兴趣。
+      您可以在这里找到更多关于我的信息。
+    </p>
+    <p>
+      <a class="btn btn-primary btn-lg" href="{{ '/about/' | prepend: site.baseurl }}" role="button">了解更多关于我 &raquo;</a>
+    </p>
+  </div>
+</div>
