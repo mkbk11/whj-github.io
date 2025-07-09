@@ -3,11 +3,11 @@ title: 个人介绍   # 网站标题
 description: 王泓杰的个人介绍   # 网站描述
 author: 王泓杰    # 名字
 logo: /static/img/photo.jpg    # 头像
-github: https://github.com/codeasashu   # GitHub 主页链接
-about: 123y7   # 关于我的简短描述
+github: https://github.com/mkbk11   # GitHub 主页链接
+about: 勤奋，坚持，专研，开朗   # 关于我的简短描述
 
 # w网站 URL 配置
-baseurl: ""   # 
+baseurl: ""   #
 url: "whjintroduction"   # 网站完整 URL
 
 # 搜索功能配置
