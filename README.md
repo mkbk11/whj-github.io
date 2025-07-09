@@ -1,22 +1,56 @@
-## HCZ Material theme
+# 个人介绍网站
 
-This is a simple personal material theme, best suited for personal authors, programmars, bloggers. 
+这是一个基于Jekyll的个人介绍网站，用于展示个人信息、项目经历、技能和联系方式。网站采用响应式设计，支持移动端和桌面端浏览。
 
-### Demo
-* [https://codeasashu.github.io/hcz-jekyll-blog](https://codeasashu.github.io/hcz-jekyll-blog/)
+## 网站特点
 
-#### Feature
+* 简洁现代的Material Design风格
+* 响应式布局，适配各种设备
+* 项目展示功能，支持标签筛选
+* 站内搜索功能
+* 分页功能
+* 社交媒体链接整合
+* 支持Markdown格式内容
 
-* Sitemap and XML Feed
-* Site Search 
-* Projects and tags
-* Paginations in homepage
-* Posts under category
-* Related Posts
-* Highlight pre
-* Next & Previous Post
-* Disqus comment
+## 主要页面
 
-#### Screenshot
+* **首页**：个人简介和欢迎信息
+* **关于我**：详细的个人信息，包括教育背景、实习经历、项目经历、竞赛经历和技能
+* **项目**：展示个人项目，包括血细胞检测系统、智能工厂火灾检测系统等
 
-![Screenshot Home Page](https://raw.githubusercontent.com/ashutosh2k12/jekyllthemes/master/thumbnails/hcz-material.png  "Screenshot Home Page")
+## 项目展示
+
+网站包含多个项目展示页面，每个项目都有详细的介绍、技术栈、功能描述和应用场景。目前包括：
+
+* **血细胞检测系统**：基于深度学习的血细胞智能检测系统
+* **智能工厂火灾检测系统**：基于改进型YOLOv8的智能消防监控系统
+* 更多项目...
+
+## 技术栈
+
+* Jekyll静态网站生成器
+* HTML/CSS/JavaScript
+* Bootstrap Material Design
+* SCSS样式预处理
+* Liquid模板语言
+
+## 本地运行
+
+1. 确保已安装Ruby和Jekyll
+2. 克隆仓库到本地
+3. 进入项目目录
+4. 运行`bundle install`安装依赖
+5. 运行`jekyll serve`启动本地服务器
+6. 在浏览器中访问`http://localhost:4000`
+
+## 自定义
+
+* 在`_config.yml`中修改网站基本信息
+* 在`_data/projects.json`中添加或修改项目信息
+* 在`_data/social.json`中更新社交媒体链接
+* 在`about.md`中更新个人信息
+* 在`projects/`目录下添加项目详情页面
+
+## 部署
+
+网站可以部署到GitHub Pages、Netlify、Vercel等静态网站托管服务上。
