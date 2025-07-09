@@ -2,14 +2,14 @@
 	{
 		"name": "血细胞检测系统",
 		"image": "Blood_Cell.jpg",
-		"url": "/projects/Blood_Cell.html",
+		"url": "{{ site.baseurl }}/projects/Blood_Cell.html",
 		"date": "2025-02-01",
 		"tags": ["Python", "YOLOv8", "Streamlit"]
 	},
 	{
 		"name": "Cool project 2",
 		"image": "placeholder.jpg",
-		"url": "/projects/Cool_Project_2.html",
+		"url": "{{ site.baseurl }}/projects/Cool_Project_2.html",
 		"date": "2025-02-01",
 		"tags": ["xxxx", "xxxx", "xxxxx"]
 	},

@@ -8,7 +8,7 @@ about: 勤奋，坚持，专研，开朗   # 关于我的简短描述
 
 # w网站 URL 配置
 baseurl: ""   #
-url: "whjintroduction"   # 网站完整 URL
+url: "https://mkbk11.github.io/whj-github.io"   # 网站完整 URL
 
 # 搜索功能配置
 allowsearch: true   # 是否启用站内搜索功能
