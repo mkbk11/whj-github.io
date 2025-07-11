@@ -7,8 +7,8 @@ github: https://github.com/mkbk11   # GitHub 主页链接
 about: 勤奋，坚持，专研，开朗   # 关于我的简短描述
 
 # w网站 URL 配置
-baseurl: ""   #
-url: "https://mkbk11.github.io/whj-github.io"   # 网站完整 URL
+baseurl: "/whj-github.io"   #
+url: "https://mkbk11.github.io"   # GitHub Pages域名
 
 # 搜索功能配置
 allowsearch: true   # 是否启用站内搜索功能
@@ -31,3 +31,4 @@ per_page: 20    # 每页显示的文章数量（用于某些特定页面）
 paginate_path: "/page:num/"   # 分页 URL 的格式
 markdown: kramdown    # Markdown 解析器配置
 gems: [jekyll-paginate, jekyll-gist]    # Jekyll 插件配置
+ 
