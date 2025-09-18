@@ -2,23 +2,23 @@
 	{
 		"name": "血细胞检测系统",
 		"image": "Blood_Cell.jpg",
-		"url": "{{ site.baseurl }}/projects/Blood_Cell.html",
+		"url": "/projects/Blood_Cell.html",
 		"date": "2025-02-01",
 		"tags": ["Python", "YOLOv8", "Streamlit"]
 	},
 	{
-		"name": "Cool project 2",
+		"name": "智能火灾监控系统",
 		"image": "placeholder.jpg",
-		"url": "{{ site.baseurl }}/projects/Cool_Project_2.html",
-		"date": "2025-02-01",
-		"tags": ["xxxx", "xxxx", "xxxxx"]
+		"url": "/projects/Cool_Project_2.html",
+		"date": "2023-10-01",
+		"tags": ["YOLOv8", "Vue3", "SpringBoot", "边缘计算"]
 	},
 	{
-		"name": "Cool project 3",
+		"name": "脑机与应急机器人",
 		"image": "placeholder.jpg",
-		"url": "#",
-		"date": "June 2014",
-		"tags": ["HTML","JQuery","PHP"]
+		"url": "/projects/BCI_Robot.html",
+		"date": "2025-04-01",
+		"tags": ["EEG", "FBCCA", "自适应滤波", "低延迟通信"]
 	},
 	{
 		"name": "Cool project 4",
@@ -26,5 +26,4 @@
 		"date": "Oct 2016",
 		"tags": ["Android","nodejs"]
 	}
-
 ]

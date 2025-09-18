@@ -16,14 +16,14 @@
     "icon": "fa-desktop"
   },
   {
-    "text": "Resume",
-    "url": "/#",
-    "icon": "fa-graduation-cap",
+    "text": "个人兴趣",
+    "url": "/interests/",
+    "icon": "fa-heart"
   },
   {
-    "text": "Github",
-    "url": "/#",
-    "icon": "fa-github"
+    "text": "个人账号",
+    "url": "/accounts/",
+    "icon": "fa-user-circle"
   },
   {
     "text": "XML Feed",

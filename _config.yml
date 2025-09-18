@@ -6,8 +6,8 @@ logo: /static/img/photo.jpg    # 头像
 github: https://github.com/mkbk11   # GitHub 主页链接
 about: 勤奋，坚持，专研，开朗   # 关于我的简短描述
 
-# w网站 URL 配置
-baseurl: "/whj-github.io"   #
+# 网站 URL 配置
+baseurl: ""   # 修改为空字符串，避免路径重复
 url: "https://mkbk11.github.io"   # GitHub Pages域名
 
 # 搜索功能配置
