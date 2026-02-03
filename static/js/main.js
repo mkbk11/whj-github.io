@@ -1,5 +1,10 @@
 (function($){
 	$(document).ready(function(){
-		//Empty space. Fill this with your site specific JS code
+		// Interests page click event
+		$('.interest-header').on('click', function() {
+		  var item = $(this).closest('.interest-item');
+		  item.toggleClass('active');
+		  item.find('.interest-body').slideToggle();
+		});
 	});
 })(jQuery);

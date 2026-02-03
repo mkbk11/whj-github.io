@@ -1,7 +1,7 @@
 [
 	{
 		"name": "血细胞检测系统",
-		"image": "Blood_Cell.jpg",
+		"image": "BC-Detection.png",
 		"url": "/projects/Blood_Cell.html",
 		"date": "2025-02-01",
 		"tags": ["Python", "YOLOv8", "Streamlit"]
@@ -11,14 +11,14 @@
 		"image": "placeholder.jpg",
 		"url": "/projects/Cool_Project_2.html",
 		"date": "2023-10-01",
-		"tags": ["YOLOv8", "Vue3", "SpringBoot", "边缘计算"]
+		"tags": ["YOLOv8", "Vue3"]
 	},
 	{
 		"name": "脑机与应急机器人",
 		"image": "placeholder.jpg",
 		"url": "/projects/BCI_Robot.html",
 		"date": "2025-04-01",
-		"tags": ["EEG", "FBCCA", "自适应滤波", "低延迟通信"]
+		"tags": ["EEG", "FBCCA"]
 	},
 	{
 		"name": "Cool project 4",

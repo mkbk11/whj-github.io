@@ -23,12 +23,12 @@
   {
     "text": "个人账号",
     "url": "/accounts/",
-    "icon": "fa-user-circle"
+    "icon": "fa-regular fa-user"
   },
   {
     "text": "XML Feed",
     "url": "/feed.xml",
     "icon": "fa-feed",
-    "target": _blank
+    "target": "_blank"
   }
 ]

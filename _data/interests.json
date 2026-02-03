@@ -1,0 +1,42 @@
+[
+  {
+    "name": "摄影",
+    "icon": "fa-camera-retro",
+    "image": [
+      "photograph/chongqing1.jpg",
+      "photograph/chongqing2.jpg",
+      "photograph/chongqing3.jpg",
+      "photograph/macau1.jpg",
+      "photograph/dali1.jpg",
+      "photograph/zhuhai1.jpg",
+      "photograph/shanghai1.jpg"
+    ],
+    "description": "记录生活中的美好瞬间。",
+    "tags": ["旅行", "风景", "人像"]
+  },
+  {
+    "name": "音乐",
+    "icon": "fa-music",
+    "description": "旋律是我的另一种语言。",
+    "artists": [
+      { "name": "孙燕姿", "album_cover": "music/sunyanzi.jpg" },
+      { "name": "陈奕迅", "album_cover": "music/eason.jpg" },
+      { "name": "张惠妹", "album_cover": "music/zhanghuimei.jpg" },
+      { "name": "张宇", "album_cover": "music/zhangyu.jpg" }
+    ],
+    "tags": ["华语流行"]
+  },
+  {
+    "name": "运动",
+    "icon": "fa-futbol-o",
+    "description": "保持活力，享受健康。",
+    "activities": [
+      { "name": "篮球", "icon": "fa-dribbble" },
+      { "name": "足球", "icon": "fa-futbol-o" },
+      { "name": "跑步", "icon": "fa-male" },
+      { "name": "游泳", "icon": "fa-tint" },
+      { "name": "乒乓球", "icon": "fa-circle-o-notch" }
+    ],
+    "tags": ["团队运动", "个人运动"]
+  }
+]
