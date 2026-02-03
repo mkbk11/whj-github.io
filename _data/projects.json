@@ -1,5 +1,12 @@
 [
 	{
+		"name": "智能火灾监控系统",
+		"image": "fire.png",
+		"url": "/projects/Cool_Project_2.html",
+		"date": "2023-10-01",
+		"tags": ["Python", "YOLOv8", "Vue3"]
+	},
+	{
 		"name": "血细胞检测系统",
 		"image": "BC-Detection.png",
 		"url": "/projects/Blood_Cell.html",
@@ -7,23 +14,15 @@
 		"tags": ["Python", "YOLOv8", "Streamlit"]
 	},
 	{
-		"name": "智能火灾监控系统",
+		"name": "project 3(更新中)",
 		"image": "placeholder.jpg",
-		"url": "/projects/Cool_Project_2.html",
-		"date": "2023-10-01",
-		"tags": ["YOLOv8", "Vue3"]
-	},
-	{
-		"name": "脑机与应急机器人",
-		"image": "placeholder.jpg",
-		"url": "/projects/BCI_Robot.html",
 		"date": "2025-04-01",
-		"tags": ["EEG", "FBCCA"]
+		"tags": ["xxx", "xxx"]
 	},
 	{
-		"name": "Cool project 4",
+		"name": "project 4(更新中)",
 		"image": "placeholder.jpg",
 		"date": "Oct 2016",
-		"tags": ["Android","nodejs"]
+		"tags": ["xxx","xxx"]
 	}
 ]
