@@ -11,7 +11,7 @@
         currentInputValue = '',
         lastSearchResultHash,
         posts = [],
-        sitemap = (baseurl || '') + '/sitemap.xml';
+        sitemap = (baseurl || '') + '/feed.xml';
 
     // Changes XML to JSON
     // Modified version from here: http://davidwalsh.name/convert-xml-json
@@ -60,7 +60,13 @@
 
     function getPostsFromXml(xml) {
         var json = xmlToJson(xml);
-        return json.channel.item;
+        if (json.channel && json.channel.item) {
+            return json.channel.item;
+        }
+        if (json.item) {
+            return json.item;
+        }
+        return [];
     }
 
     var xmlhttp=new XMLHttpRequest();
@@ -69,7 +75,7 @@
         if (xmlhttp.readyState != 4) return;
         if (xmlhttp.status != 200 && xmlhttp.status != 304) { return; }
         var node = (new DOMParser).parseFromString(xmlhttp.responseText, 'text/xml');
-        node = node.children[0];
+        node = node.children[0] || node;
         posts = getPostsFromXml(node);
     }
     xmlhttp.send();

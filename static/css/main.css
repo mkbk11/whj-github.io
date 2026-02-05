@@ -441,3 +441,12 @@ footer {
   color: #888;
   font-size: 0.9em;
 }
+
+.project-actions {
+  margin: 15px 0 25px;
+}
+
+.project-actions .btn {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
