@@ -7,19 +7,21 @@ subtitle: 我的个人网站和社交账号
 
 ## 技术平台
 
+### GitHub
+- **平台名称**: GitHub
+- **账号名**: mkbk11
+- **网址**: https://github.com/mkbk11/
+- **简介**: 代码托管和项目展示
+
 ### CSDN
 - **平台名称**: CSDN
 - **账号名**: ZK小帅哥
 - **简介**: 技术博客分享平台
 - **内容**: 人工智能、计算机视觉、深度学习相关文章
 
-<!-- 可以添加更多技术平台，如：
-### GitHub
-- **平台名称**: GitHub
-- **账号名**: [您的GitHub用户名]
-- **网址**: https://github.com/[用户名]
-- **简介**: 代码托管和项目展示
 
+<!--
+ 可以添加更多技术平台，如：
 ### 知乎
 - **平台名称**: 知乎
 - **账号名**: [您的知乎用户名]
@@ -28,6 +30,16 @@ subtitle: 我的个人网站和社交账号
 -->
 
 ## 学术平台
+
+### google scholar
+- **平台名称**: google scholar
+- **网址**: https://scholar.google.com/citations?user=tOwvevQAAAAJ&h
+- **简介**: 个人学术成果展示
+
+### orcid
+- **平台名称**: ORCID
+- **网址**: https://orcid.org/my-orcid?orcid=0009-0000-5048-6270
+- **简介**: 学术研究者身份标识
 
 <!-- 预留学术平台账号信息
 ### ResearchGate
