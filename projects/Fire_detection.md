@@ -4,6 +4,9 @@ title: 智能火灾监控系统
 permalink: /projects/Fire_detection.html
 ---
 
+# 图片插入加入了{{ site.baseurl }} 
+
+
 # 基于改进型的YOLOv8智能消防监控系统
 
 <div class="project-actions">
@@ -55,7 +58,7 @@ permalink: /projects/Fire_detection.html
 - 整理和清洗数据：按照火焰、烟雾等类别进行标注和分类，去除质量较差样本
 - 编写脚本完成数据增强，在训练前做裁剪、翻转、亮度调整等处理
 
-![数据集示例图](/static/img/fire_detection/dataset.png)
+![数据集示例图]({{ site.baseurl }}/static/img/fire_detection/dataset.png)
 
 ### 2. 模型训练与调试
 
@@ -63,7 +66,7 @@ permalink: /projects/Fire_detection.html
 - 针对小场景数据集，调整学习率、batch size、训练轮数等超参数，反复实验
 - 通过验证集和部分实际场景视频测试模型效果，观察对小火焰和明显烟雾的识别情况
 
-![网络架构图](/static/img/fire_detection/framework.png)
+![网络架构图]({{ site.baseurl }}/static/img/fire_detection/framework.png)
 
 ### 3. 简单系统原型开发
 
@@ -71,8 +74,8 @@ permalink: /projects/Fire_detection.html
 - 和队友一起讨论前后端实现方案，提供模型接口需求和测试数据
 - 协助调试模型与前端页面、后端接口之间的数据对接，在局域网环境下完成基本演示
 
-![系统界面图](/static/img/fire_detection/web.png)
-![系统界面图](/static/img/fire_detection/web1.png)
+![系统界面图]({{ site.baseurl }}/static/img/fire_detection/web.png)
+![系统界面图]({{ site.baseurl }}/static/img/fire_detection/web1.png)
 
 ### 4. 边缘设备部署尝试
 
@@ -80,7 +83,7 @@ permalink: /projects/Fire_detection.html
 - 根据设备算力测试不同模型规模和输入分辨率，记录推理速度和占用情况
 - 针对运行中出现的卡顿、发热等问题，适当调整模型和推理参数
 
-![边缘设备部署图](/static/img/fire_detection/deploy.png)
+![边缘设备部署图]({{ site.baseurl }}/static/img/fire_detection/deploy.png)
 
 ### 5. 项目组织与成果
 

@@ -6,7 +6,7 @@ permalink: /projects/BCI_Robot.html
 
 # 脑机与应急机器人
 
-![脑机与应急机器人](/static/projects/placeholder.jpg)
+![脑机与应急机器人]({{ site.baseurl }}/static/projects/placeholder.jpg)
 
 ## 项目介绍
 
@@ -45,10 +45,10 @@ permalink: /projects/BCI_Robot.html
 ## 图片展示
 
 ### 系统架构图
-![系统架构图](/static/projects/placeholder.jpg)
+![系统架构图]({{ site.baseurl }}/static/projects/placeholder.jpg)
 
 ### EEG信号处理流程
-![信号处理流程](/static/projects/placeholder.jpg)
+![信号处理流程]({{ site.baseurl }}/static/projects/placeholder.jpg)
 
 ### FBCCA分类效果对比
-![分类效果对比](/static/projects/placeholder.jpg)
+![分类效果对比]({{ site.baseurl }}/static/projects/placeholder.jpg)
