@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 智能火灾监控系统
-permalink: /projects/Cool_Project_2.html
+permalink: /projects/Fire_detection.html
 ---
 
 # 基于改进型的YOLOv8智能消防监控系统
