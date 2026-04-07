@@ -33,13 +33,13 @@ subtitle: 我的个人网站和社交账号
 
 ### google scholar
 - **平台名称**: google scholar
-- **网址**: https://scholar.google.com/citations?user=tOwvevQAAAAJ&h
+- **网址**: https://github.com/mkbk11
 - **简介**: 个人学术成果展示
 
 ### orcid
 - **平台名称**: ORCID
-- **网址**: https://orcid.org/my-orcid?orcid=0009-0000-5048-6270
-- **简介**: 学术研究者身份标识
+- **网址**: https://orcid.org/0009-0000-5048-6270
+- **简介**: 学术研究记录
 
 <!-- 预留学术平台账号信息
 ### ResearchGate

@@ -54,16 +54,16 @@ permalink: /projects/Fire_detection.html
 
 ### 1. 数据集整理与预处理
 
-- 负责收集数据：参考公开火灾数据集，并自行拍摄室内小场景火焰/烟雾图片
+- 负责收集数据：收集公开火灾数据集，包括但不限于室内外小场景火焰/烟雾图片
 - 整理和清洗数据：按照火焰、烟雾等类别进行标注和分类，去除质量较差样本
-- 编写脚本完成数据增强，在训练前做裁剪、翻转、亮度调整等处理
+- 编写脚本完成数据增强，比如：裁剪、翻转、HSV、Mosaic等
 
 ![数据集示例图]({{ site.baseurl }}/static/img/fire_detection/dataset.png)
 
 ### 2. 模型训练与调试
 
 - 负责基于 YOLOv8 搭建火灾检测模型，尝试不同输入尺寸和网络配置
-- 针对小场景数据集，调整学习率、batch size、训练轮数等超参数，反复实验
+- 针对小场景数据集，调整学习率、batch size、epoch等超参数，反复实验
 - 通过验证集和部分实际场景视频测试模型效果，观察对小火焰和明显烟雾的识别情况
 
 ![网络架构图]({{ site.baseurl }}/static/img/fire_detection/framework.png)
@@ -74,8 +74,9 @@ permalink: /projects/Fire_detection.html
 - 和队友一起讨论前后端实现方案，提供模型接口需求和测试数据
 - 协助调试模型与前端页面、后端接口之间的数据对接，在局域网环境下完成基本演示
 
-![系统界面图]({{ site.baseurl }}/static/img/fire_detection/web.png)
-![系统界面图]({{ site.baseurl }}/static/img/fire_detection/web1.png)
+![系统界面图1]({{ site.baseurl }}/static/img/fire_detection/Streamlit.png)
+![系统界面图2]({{ site.baseurl }}/static/img/fire_detection/web.png)
+![系统界面图3]({{ site.baseurl }}/static/img/fire_detection/web1.png)
 
 ### 4. 边缘设备部署尝试
 
@@ -83,7 +84,8 @@ permalink: /projects/Fire_detection.html
 - 根据设备算力测试不同模型规模和输入分辨率，记录推理速度和占用情况
 - 针对运行中出现的卡顿、发热等问题，适当调整模型和推理参数
 
-![边缘设备部署图]({{ site.baseurl }}/static/img/fire_detection/deploy.png)
+![边缘设备部署图1]({{ site.baseurl }}/static/img/fire_detection/deploy.png)
+![边缘设备部署图2]({{ site.baseurl }}/static/img/fire_detection/deploy-streamlit.png)
 
 ### 5. 项目组织与成果
 
