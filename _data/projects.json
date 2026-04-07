@@ -2,7 +2,7 @@
 	{
 		"name": "智能火灾监控系统",
 		"image": "fire.png",
-		"url": "/projects/Cool_Project_2.html",
+		"url": "/projects/Fire_detection.html",
 		"date": "2023-10-01",
 		"tags": ["Python", "YOLOv8", "Vue3"]
 	},
