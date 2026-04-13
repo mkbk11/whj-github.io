@@ -4,7 +4,7 @@ title: 智能火灾监控系统
 permalink: /projects/Fire_detection.html
 ---
 
-# 图片插入加入了{{ site.baseurl }} 
+# 图片插入需加入 {{ site.baseurl }} 
 
 
 # 基于改进型的YOLOv8智能消防监控系统
@@ -30,9 +30,11 @@ permalink: /projects/Fire_detection.html
 
 **学术论文发表**：
 - 📄 **DSS-YOLO: an improved lightweight real-time fire detection model based on YOLOv8** <br/>
-  **H Wang**, X Fu, Z Yu, Z Zeng - Scientific Reports, 2025 - nature.com
+  **H Wang**, X Fu, Z Yu, Z Zeng - Scientific Reports, 2025 - nature.com <br/>
+  链接：<https://www.nature.com/articles/s41598-025-93278-w>
 - 📄 **Lightweight Intelligent Fire Monitoring System Based on Flask and YOLOv8** <br/>
-  Z Zheng, X Cai, **H Wang**, X Fu - 2024 2nd AIAC, 2024 - ieeexplore.ieee.org
+  Z Zheng, X Cai, **H Wang**, X Fu - 2024 2nd AIAC, 2024 - ieeexplore.ieee.org <br/>
+  链接：<https://ieeexplore.ieee.org/abstract/document/10899473>
 
 **软件著作权**：
 - 💻 **火眼金睛消防监控平台[简称：火眼金睛]V1.0**（2025年03月）
@@ -66,12 +68,11 @@ permalink: /projects/Fire_detection.html
 实现轻量化。通过动态卷积自适应调整感受野，对远距离、小尺寸火焰特征更敏感。
 - 注意力机制增强：在检测头（Head）特征融合位置融入SEAM 注意力机制，强化模型对遮挡火情、小目标火焰的特征关注与定位能力， 提升复杂场景鲁棒性。
 - 多尺度特征优化：在主干网络末端采用SPPELAN 模块替代原始 SPPF 模块，通过空间金字塔池化与高效层级聚合，
-增强不同尺度火灾目标的特征提取与定位精度。
+增强不同尺度火灾目标的特征提取与定位精度。<br>
+  ![DSS-YOLO改进架构图]({{ site.baseurl }}/static/img/fire_detection/framework.png)<br>
 - 数据增强策略：采用旋转、平移、缩放、HSV 变换、Mosaic 混合等增强方式，基于 mytest-hrswj 公开火灾数据集（2384 张标注样本，
-覆盖室内、森林、建筑场景）扩充训练数据，提升模型泛化能力。
-
-![DSS-YOLO改进架构图]({{ site.baseurl }}/static/img/fire_detection/framework.png)<br>
-![data_agumentation]({{ site.baseurl }}/static/img/fire_detection/data_agumentation.png)
+覆盖室内、森林、建筑场景）扩充训练数据，提升模型泛化能力。<br>
+  ![data_agumentation]({{ site.baseurl }}/static/img/fire_detection/data_agumentation.png)
 
 ### （二）系统开发与部署
 - 模型训练与验证：基于 PyTorch 完成 DSS-YOLOv8 模型训练与调参，通过消融实验验证 DynamicConv、SEAM、SPPELAN 各模块的有效性；

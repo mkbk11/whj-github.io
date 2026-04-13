@@ -22,13 +22,13 @@ permalink: /about/
 ## 期刊论文
 - **DSS-YOL0: an improved lightweight real-time fire detection model based on YOLOv8**  
   **H Wang**, X Fu, Z Yu, Z Zeng - Scientific Reports, 2025 - nature.com（SCI二区，IF:3.8）<br>
-  链接：https://www.nature.com/articles/s41598-025-93278-w
+  链接：<https://www.nature.com/articles/s41598-025-93278-w>
 - **Lightweight Intelligent Fire Monitoring system Based on Flask and YOLOv8**  
   Z Zheng, X Cai, **H Wang**, X Fu 2024 2nd AIAC, 2024 - ieeexplore.ieee.org <br>
-  链接：https://ieeexplore.ieee.org/abstract/document/10899473
+  链接：<https://ieeexplore.ieee.org/abstract/document/10899473>
 - **BCdetection-YOLOv8: An improved blood cell detection algorithm based on YOLOv8**  
   **H Wang**, L Hu, Z Zeng, Q Xu 2025 IEEE 6th AINIT, 2025•ieeexplore.ieee.org <br>
-  链接：https://ieeexplore.ieee.org/abstract/document/11035976
+  链接：<https://ieeexplore.ieee.org/abstract/document/11035976>
 
 
 
