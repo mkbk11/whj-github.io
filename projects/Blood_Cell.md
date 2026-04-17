@@ -8,7 +8,7 @@ permalink: /projects/Blood_Cell.html
 
 <div class="project-actions">
   <a href="{{ site.baseurl }}/projects/" class="btn btn-default btn-raised btn-sm">返回项目列表</a>
-  <a href="#results" class="btn btn-primary btn-raised btn-sm">查看项目成果</a>
+  <a href="#achievement" class="btn btn-primary btn-raised btn-sm">查看项目成果</a>
 </div>
 
 ## 项目背景
@@ -16,7 +16,7 @@ permalink: /projects/Blood_Cell.html
 传统血细胞检测主要依靠人工显微镜观察与手工计数，存在效率低、主观性强、易误判、标准化程度低等问题，无法满足现代临床快速诊断、大规模筛查与实时监测的需求。
 随着医学影像与深度学习技术快速发展，将 AI 目标检测应用于血细胞智能识别，成为智慧医疗的重要方向。本项目旨在打造一套高精度、轻量化、易使用、全流程自动化的血细胞智能检测系统，为临床辅助诊断、健康监测与医学教学提供高效工具。
 
-## 项目时间与成果 {#results}
+## 项目时间与成果 {#achievement}
 
 **项目周期**：2024年6⽉ – 2025年8⽉
 

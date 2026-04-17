@@ -4,19 +4,20 @@ title: 智能火灾监控系统
 permalink: /projects/Fire_detection.html
 ---
 
-# 图片插入需加入 {{ site.baseurl }} 
+[//]: # ( 图片插入需加入 {{ site.baseurl }} )
 
 
 # 基于改进型的YOLOv8智能消防监控系统
 
 <div class="project-actions">
   <a href="{{ site.baseurl }}/projects/" class="btn btn-default btn-raised btn-sm">返回项目列表</a>
-  <a href="#my-work" class="btn btn-primary btn-raised btn-sm">查看我的主要工作</a>
-  <a href="#future" class="btn btn-info btn-raised btn-sm">查看未来发展方向</a>
+  <a href="#achievement" class="btn btn-primary btn-raised btn-sm">核心技术栈</a>
+  <a href="#core-skill" class="btn btn-primary btn-raised btn-sm">核心技术栈</a>
+  <a href="#result" class="btn btn-info btn-raised btn-sm">实验结果</a>
 </div>
 
 
-## 项目时间与成果
+## 项目时间与成果 {#achievement}
 
 **项目周期**：2023年10月 – 至今
 
@@ -41,7 +42,7 @@ permalink: /projects/Fire_detection.html
 - 💻 **目标检测智能分析平台[简称：智眸视界]V1.0**（2025年07月）
 - 💻 **慧眼安防安全帽识别平台[简称：慧眼安防]V1.0**（2025年12月）
 
-## 项目背景与目标
+## 项目背景与目标 {#core-skill}
 
 针对传统消防监控依赖传感器检测、有效感知范围短、易受粉尘 / 局部热源干扰、需人工确认火情，且火灾早期小火焰、烟雾弥漫、目标易被遮挡导致漏检、
 实时性差、复杂场景识别精度不足的行业痛点，结合智慧消防与嵌入式部署需求，探索轻量化 YOLOv8 改进策略，解决小目标火情、遮挡目标、
@@ -86,7 +87,7 @@ permalink: /projects/Fire_detection.html
 ![部署图]({{ site.baseurl }}/static/img/fire_detection/deploy.png)
 
 
-## 实验结果与系统效果
+## 实验结果与系统效果 {#result}
 - 模型性能：相较于原始 YOLOv8n，mAP50 提升 0.6%、召回率提升 1.6%，模型参数量降低 3.4%，计算量（FLOPs）降低 12.3%，
 实现精度与轻量化的平衡。<br>
   ![消融实验]({{ site.baseurl }}/static/img/fire_detection/ablation.png)<br>
